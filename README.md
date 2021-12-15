@@ -6,7 +6,7 @@
     MIT License 
    
    ## Description 
- (Travel App) is an application that allows users to search for cities they want to travel to, and add them to a personal list. As well as keep a list of cities they have already been to. Each city they search automatically renders photos of the area. (Travel App) also makes further travel recommendations based on the user’s previous searches and cities they have visited.
+ (Travel App) is an application that allows users to search for cities they want to travel to, and add them to a personal list. As well as keep a list of cities they have already been to. The user is also able to upload photos they have taken of each city, that way when they look at the list of cities they have been to they can see their personal photos for that trip.  Each city they search automatically renders photos of the area. (Travel App) also makes further travel recommendations based on the user’s previous searches and cities they have visited.
     
    ## Installation
  
