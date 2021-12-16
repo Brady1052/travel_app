@@ -1,7 +1,6 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Homepage from './components/Homepage';
 import Navbar from './components/Navbar';
+import Homepage from './components/Pages/Homepage';
 
 function App() {
   return (
