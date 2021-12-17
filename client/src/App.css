@@ -56,7 +56,17 @@
 
 .column img {
   max-width: 25%;
-  margin-top: 8px;
+  margin-top: 3%;
   margin-left: 8%;
-  vertical-align: middle;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color:white;
+  font-size: 500%;
+}
+.cityName {
+  color: white;
+  text-align: center;
 }
