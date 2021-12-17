@@ -2,10 +2,9 @@
   text-align: center;
 }
 
-/* .main{
-  background-image: url('https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  height:100vh;
-} */
+.main{
+  background-color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
