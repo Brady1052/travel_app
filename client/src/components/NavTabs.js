@@ -15,6 +15,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           Login
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#visited"
+          onClick={() => handlePageChange('Visited')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Visited' ? 'nav-link active' : 'nav-link'}
+        >
+          Pages Visited
+        </a>
+      </li>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <span class="container-fluid">
       <form class="d-flex">
@@ -23,6 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </form>
     </span>
 </nav>
+
     </ul>
   );
 }
