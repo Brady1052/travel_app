@@ -14,7 +14,6 @@ const Navbar = () => {
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Login</a>
-        <a class="nav-link" href="#">Visited</a>
       </li>
       
       {/* <li class="nav-item dropdown">
