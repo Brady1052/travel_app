@@ -1,11 +1,9 @@
 import './App.css';
-import NavTabs from './components/NavTabs';
-import Homepage from './components/Pages/Homepage';
-
+import AppContainer from './components/AppContainer';
 function App() {
   return (
     <div className='main'>
-     <Homepage />
+     <AppContainer />
     </div>
   );
 }
