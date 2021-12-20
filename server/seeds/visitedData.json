@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Houston",
+        "user_id": 1
+    },
+    {
+        "name": "Miami",
+        "user_id": 2
+    },
+    {
+        "name": "Columbus",
+        "user_id": 3
+    },
+    {
+        "name": "Miami",
+        "user_id": 4
+    },
+    {
+        "name": "London",
+        "user_id": 5
+    }
+  ]
+  
