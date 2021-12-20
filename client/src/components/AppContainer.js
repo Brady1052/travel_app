@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Visited from '../components/Pages/Visited'
 import NavTabs from './NavTabs';
+import LoggedOutNav from './LoggedOutNav'
 import Homepage from './Pages/Homepage';
 import '../App.css';
 
@@ -21,9 +22,10 @@ export default function AppContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
+      <LoggedOutNav currentPage={currentPage} handlePageChange={handlePageChange} />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
     </div>
-  );
+  )
 }
