@@ -5,7 +5,7 @@ const Images = () => {
         <div>
           <div class="row"> 
   <div class='column'>
-    <h1>Miami</h1>
+    <h1> Miami</h1>
    <img src="https://media.istockphoto.com/photos/miami-skyline-yachts-sail-on-sea-water-to-city-picture-id1260383704?b=1&k=20&m=1260383704&s=170667a&w=0&h=xeNFCivY0NDPBj2KInQsQyIHzHEXxBdJwNp8PV2y7IA="  alt='miami'></img>
     <img src="https://media.istockphoto.com/photos/the-main-attraction-of-paris-and-all-of-europe-is-the-eiffel-tower-in-picture-id1185953092?b=1&k=20&m=1185953092&s=170667a&w=0&h=piovAtT7yPx3v8ovL64iQZJrfF8VMedyyOLf2AuRSUU=" alt='paris'></img>
     <img src="https://media.istockphoto.com/photos/aerial-view-of-london-and-the-tower-bridge-picture-id1265900812?b=1&k=20&m=1265900812&s=170667a&w=0&h=jOR9G-887Sh5LXygPFBIy8TIx5vCoVDm8FKISpapq-E="  alt='London'></img>
