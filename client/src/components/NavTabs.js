@@ -1,7 +1,8 @@
 import React from 'react';
 import LoginButton from './LoginButton';
 import LogoutButton from './LogoutButton';
-import {useAuth0} from '@auth0/auth0-react'
+import {useAuth0} from '@auth0/auth0-react';
+import Header from './ui/header';
 import '../App.css';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -43,6 +44,9 @@ function NavTabs({ currentPage, handlePageChange }) {
       </form>
     </span>
 </nav>
+<li>
+  <Header />
+</li>
     </ul>
   ))
 }
