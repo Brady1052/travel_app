@@ -1,6 +1,7 @@
 import React from 'react'
-import NavTabs from '../NavTabs'
 import Images from './Images'
+import LoginButton from '../LoginButton'
+import LogoutButton from '../LogoutButton'
 const Homepage = () => {
     return (
         <div style={{

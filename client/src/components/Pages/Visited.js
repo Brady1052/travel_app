@@ -8,7 +8,6 @@ const Visited = () => {
         }}>
             <h1 className='title'>Places You Have Visited</h1>
             <Images />
-            <Images />
         </div>
         
     )
