@@ -1,16 +1,17 @@
 import React from 'react';
 import LoginButton from './LoginButton';
 import LogoutButton from './LogoutButton';
+import '../App.css';
+
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
        <li className="nav-item">
-        <a
+        <a 
           href="/"
           onClick={() => handlePageChange('Homepage')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
        Home
@@ -18,20 +19,14 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       
       <li className="nav-item">
-        <a
-          href="#login"
-          onClick={() => handlePageChange('Login')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Login' ? 'nav-link active' : 'nav-link'}
-        >
-          Login
-        </a>
+       <LoginButton className='button1'/>
+       <LogoutButton className='button1'/>
       </li>
       <li className="nav-item">
+       
         <a
           href="#visited"
           onClick={() => handlePageChange('Visited')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Visited' ? 'nav-link active' : 'nav-link'}
         >
         Visited
@@ -46,9 +41,6 @@ function NavTabs({ currentPage, handlePageChange }) {
       </form>
     </span>
 </nav>
-<LoginButton />
- <LogoutButton />
-
     </ul>
   );
 }

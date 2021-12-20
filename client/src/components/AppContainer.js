@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Visited from '../components/Pages/Visited'
 import NavTabs from './NavTabs';
 import Homepage from './Pages/Homepage';
+import '../App.css';
 
 export default function AppContainer() {
   const [currentPage, setCurrentPage] = useState('Homepage');

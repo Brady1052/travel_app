@@ -1,8 +1,7 @@
 import './App.css';
-import React, {useState, useEffect} from 'react'
-import axios from 'axios';
+import React from 'react'
 import AppContainer from './components/AppContainer';
-import LoginButton from './components/LoginButton';
+
 function App() {
     return (
     <div className='main'>

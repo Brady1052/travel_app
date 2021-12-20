@@ -1,10 +1,4 @@
-const User = require('./User');
-const Visited = require('./User')
+const Visited = require('./Visited')
 
-Visited.belongsTo(User,{
-    foreignKey: 'user_id'
-})
-
-
-module.exports = { User, Visited };
+module.exports = { Visited };
 
