@@ -4,7 +4,7 @@ const Visited = () => {
     return (
         <div
             style={{
-            backgroundImage: `url("https://images.pexels.com/photos/255464/pexels-photo-255464.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")`
+            backgroundImage: `url("https://media-exp1.licdn.com/dms/image/C4D1BAQGGdNo6IlDOCQ/company-background_10000/0/1519801807380?e=2159024400&v=beta&t=VWHuXHsmYAXZB4XQn7H63FLLvHjjMfs6CdxCh3HwcCM")`
         }}>
             <h1 className='title'>Places You Have Visited</h1>
             <Images />
