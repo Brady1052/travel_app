@@ -1,7 +1,6 @@
 import React from 'react'
 import Images from './Images'
-import LoginButton from '../LoginButton'
-import LogoutButton from '../LogoutButton'
+
 const Homepage = () => {
     return (
         <div style={{
