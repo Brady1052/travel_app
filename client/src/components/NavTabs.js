@@ -22,10 +22,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       
-      <li className="nav-item">
-       <LoginButton className='button1'/>
-       <LogoutButton className='button1'/>
-      </li>
       <li className="nav-item">    
         <a
           href="#visited"
@@ -35,7 +31,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         Visited
         </a>
       </li>
-      
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <span class="container-fluid">
       <form class="d-flex">
@@ -47,6 +42,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 <li>
   <Header />
 </li>
+<li className="nav-item">
+       <LoginButton className='button1'/>
+       <LogoutButton className='button1'/>
+      </li>
     </ul>
   ))
 }
