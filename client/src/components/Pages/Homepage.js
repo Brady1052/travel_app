@@ -6,13 +6,7 @@ import { motion } from "framer-motion"
 export function Homepage() {
     const [isActive, setIsActive] = React.useState(false);
     return (
-        <motion.div
-             className="block"
-      onClick={() => setIsActive(!isActive)}
-      animate={{
-        rotate: isActive ? 180 : 360
-      }}
-    >
+        
         <div style={{
             backgroundImage: `url(${heroImg})`,
             backgroundSize: 'cover'
@@ -20,9 +14,18 @@ export function Homepage() {
         }}>
             
             <h1 className='title'>Travel App</h1>
-        <Images />   
+            <motion.div
+             className="block"
+      onClick={() => setIsActive(!isActive)}
+      animate={{
+        rotate: isActive ? 360 : 360
+      }}
+    >
+            <Images />
+            </motion.div>
+            
         </div>
-        </motion.div>
+        
 
     )
 }
