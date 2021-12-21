@@ -4,6 +4,7 @@ import LogoutButton from './LogoutButton';
 import {useAuth0} from '@auth0/auth0-react';
 import Header from './ui/header';
 import '../App.css';
+import SearchForm from './SearchForm';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -26,14 +27,7 @@ const { loginWithRedirect, isAuthenticated } = useAuth0();
        <LoginButton className='button1'/>
        <LogoutButton className='button1'/>
       </li>      
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <span class="container-fluid">
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search City" aria-label="Search"></input>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </span>
-</nav>
+<SearchForm />
 <li>
   <Header />
 </li>
