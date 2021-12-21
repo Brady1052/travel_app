@@ -71,7 +71,7 @@
 
 }
 
-.button1{
+.button1, .nav-link {
 display: inline-block;
 padding: 0.35em 1.2em;
 border: 0.1em solid #ffffff;
@@ -85,6 +85,11 @@ color:black;
 text-align:center;
 transition: all 0.2s;
 margin-top: 30%;
+}
+
+.button1 {
+  margin-top: 30px;
+  margin-left: 550px;
 }
 
 .button1:hover{

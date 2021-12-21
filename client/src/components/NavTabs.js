@@ -23,10 +23,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       
-      <li id="button1"className="nav-item">
+      {/* <li id="button1"className="nav-item">
        <LoginButton className='button1'/>
        <LogoutButton className='button1'/>
-      </li>
+      </li> */}
       <li className="nav-item">    
         <a
           href="#visited"
@@ -40,6 +40,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 <li>
   <Header />
 </li>
+<li id="button1"className="nav-item">
+       <LoginButton className='button1'/>
+       <LogoutButton className='button1'/>
+      </li>
     </ul>
   ))
 }
