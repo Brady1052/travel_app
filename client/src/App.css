@@ -139,3 +139,13 @@ margin-top: 5%;
 #h1 {
   color:#ffffff;
 }
+
+.footer{
+  padding: 5px;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color:#ffffff
+}

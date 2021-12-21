@@ -19,6 +19,7 @@ const Images = () => {
         </div>
         </div>
     )
+    
 }
 
 export default Images

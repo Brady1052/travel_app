@@ -2,6 +2,7 @@ import React from 'react'
 import Images from './Images'
 import heroImg from '../../img/hero-back1.jpeg'
 import { motion } from "framer-motion"
+import Footer from "../footer"
 
 export function Homepage() {
     const [isActive, setIsActive] = React.useState(false);
@@ -23,11 +24,9 @@ export function Homepage() {
     >
             <Images />
             </motion.div>
-            
+            <Footer />
         </div>
-        
-
-    )
+        )
 }
 
 export default Homepage
