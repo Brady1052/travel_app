@@ -31,13 +31,12 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/build/index.html'));
 });
   
-  app.listen(PORT, () => {
-    console.log(`Server listening on ${PORT}`);
-  });
+  // app.listen(PORT, () => {
+  //   console.log(`Server listening on ${PORT}`);
+  // });
 
 // app.listen(PORT, () => console.log(`Now listening on localhost: ${PORT}`));
 
-// sequelize.sync({ force: false }).then(() => {
-//   app.listen(PORT, () => console.log('Now listening'));
-// });
-
+sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => console.log('Now listening'));
+});
