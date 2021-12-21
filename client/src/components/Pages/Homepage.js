@@ -1,11 +1,18 @@
 import React from 'react'
 import Images from './Images'
 import heroImg from '../../img/hero-back1.jpeg'
-import { Fade } from 'react-awesome-reveal'
+import { motion } from "framer-motion"
 
-const Homepage = () => {
+export function Homepage() {
+    const [isActive, setIsActive] = React.useState(false);
     return (
-        <Fade>
+        <motion.div
+             className="block"
+      onClick={() => setIsActive(!isActive)}
+      animate={{
+        rotate: isActive ? 180 : 360
+      }}
+    >
         <div style={{
             backgroundImage: `url(${heroImg})`,
             backgroundSize: 'cover'
@@ -13,10 +20,9 @@ const Homepage = () => {
         }}>
             
             <h1 className='title'>Travel App</h1>
-            <Images />
-            
+        <Images />   
         </div>
-        </Fade>
+        </motion.div>
 
     )
 }
